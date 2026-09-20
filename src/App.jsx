@@ -21,6 +21,9 @@ function App() {
           const temp=toCurrency;
           setToCurrency(fromCurrency)
           setFromCurrency(temp)
+          const temp1=to
+          setTo(from)
+          setFrom(temp1)
         }}>Swap</button>
         <CurrencyDefiner type='To' setvaluefunction={setTo} value={to} currencytype={toCurrency} setcurrencyfunction={setToCurrency} currencyList={currencyList}/>
         <button type="button" className='bg-blue-600 text-white rounded-md p-2 w-75 border border-black hover:bg-blue-700 active:shadow-lg active:bg-blue-800' onClick={function(){
